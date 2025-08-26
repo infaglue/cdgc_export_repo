@@ -5,8 +5,44 @@
     "description": "A sample Data Quality and Governance Dashboard"
   },
   {
-    "name": "Another Dashboard",
-    "shortname": "dash_other",
-    "description": "Another example"
+    "name": "Curation Dashboard",
+    "shortname": "dash_user_curation",
+    "description": "Example dashboard for tracking curation"
+  },
+  {
+    "name": "BCBS-239 Review",
+    "shortname": "bcbs-239_review_clone_dashboard",
+    "description": "Example dashboard related information affected by Basel Committee on Banking Supervision’s (BCBS) standard number 239 "
+  },
+  {
+    "name": "CLAIRE - Governance-at-Scale",
+    "shortname": "CLAIRE - Governance-at-Scale",
+    "description": "CLAIRE - Governance-at-Scale"
+  },
+  {
+    "name": "AI Compliance - AICO Dashboard",
+    "shortname": "dash_ai_compliance",
+    "description": "AI Compliance - AICO Dashboard"
+  },
+  {
+    "name": "Data Privacy",
+    "shortname": "dash_data_privacy",
+    "description": "Data Privacy"
+  },
+  {
+    "name": "Data Quality and Observability",
+    "shortname": "dash_dq_obs",
+    "description": "Data Quality and Observability"
+  },
+  {
+    "name": "Data Scientists - Sales LOB Dashboard",
+    "shortname": "Data Scientists - Sales LOB Dashboard",
+    "description": "Data Scientists - Sales LOB Dashboard"
+  },
+  {
+    "name": "User Adoption",
+    "shortname": "User_Adoption",
+    "description": "User_Adoption"
   }
+
 ]

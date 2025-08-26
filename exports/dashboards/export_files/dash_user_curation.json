@@ -1,0 +1,2051 @@
+{
+  "dashboard": {
+    "seqNo": 2945641,
+    "primaryTerm": 1,
+    "sourceAsMap": {
+      "__meta.core.externalId": {
+        "prefix": "DASH",
+        "counter": 8
+      },
+      "core.inheritedStakeholders": [],
+      "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+      "core.classType": "com.infa.application.dashboard.Dashboard",
+      "core.stakeholders": [
+        {
+          "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+          "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+          "core.stakeholderRelationshipType": "core.IClassOwner",
+          "core.stakeholderType": "USER"
+        }
+      ],
+      "core.origin": "CDGC",
+      "type": [
+        "core.IClass",
+        "com.infa.application.dashboard.Dashboard"
+      ],
+      "core.mergedObjects": [],
+      "core.externalId": "DASH-8",
+      "core.stakeholderRoleIdentities": [
+        "Stakeholder_Role_Dashboard_Owner"
+      ],
+      "core.name": "Curation Dashboard",
+      "core.description": "Dashboard containing assets to review & curate when needed  ",
+      "core.modifiedOn": 1682940003879,
+      "core.assignedGroups": [],
+      "core.assignedStakeholders": [
+        {
+          "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+          "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+          "core.stakeholderRelationshipType": "core.IClassOwner",
+          "core.stakeholderType": "USER"
+        }
+      ],
+      "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+      "core.identity": "61594833-ea54-497b-8798-53006f5069f8",
+      "core.inheritedGroups": [],
+      "core.createdOn": 1682940003879,
+      "__meta.restrictedAttributes": [],
+      "core.supplement.certified": [
+        false
+      ],
+      "core.inheritedStakeholderAttributes": [],
+      "core.assetLifecycle": "Published",
+      "core.stakeholderIdentity": [
+        "4WVZa0s5Ogliu1HuTVb4Kp"
+      ],
+      "core.groups": [],
+      "__meta.unqualifiedTypeName": "Dashboard",
+      "core.producer": "CDGC",
+      "core.assignedStakeholderAttributes": [
+        "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+        "USER#role:Stakeholder_Role_Dashboard_Owner",
+        "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+        "USER:4WVZa0s5Ogliu1HuTVb4Kp"
+      ],
+      "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+      "elementType": "OBJECT",
+      "__meta.parentLocation": "",
+      "core.stakeholderRelationshipTypes": [
+        "core.IClassOwner"
+      ],
+      "core.stakeholderAttributes": [
+        "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+        "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+        "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+        "USER#role:Stakeholder_Role_Dashboard_Owner"
+      ]
+    },
+    "score": 13.4907255
+  },
+  "widgets": [
+    {
+      "seqNo": 3058493,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 51
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "BarChart",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-51",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Technical Assets Without Business Terms",
+        "core.modifiedOn": 1738088019671,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "15a26564-c548-442c-acde-ac1de5e29b2a",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003847,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.odin.models.relational.Column",
+          "com.infa.odin.models.relational.Table",
+          "com.infa.odin.models.lakehouse.LakehouseTable",
+          "com.infa.odin.models.relational.View",
+          "com.infa.odin.models.file.File",
+          "com.infa.odin.models.file.hierarchical.HierarchicalFile"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "file,table,view,column not related to business term",
+        "com.infa.application.dashboard.savedSearchId": "",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/15a26564-c548-442c-acde-ac1de5e29b2a",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 3058494,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 45
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "PieChart",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-45",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "CDE With Low DQ Score",
+        "core.description": "DQ scores related to business assets categorized as critical for the business",
+        "core.modifiedOn": 1738088044615,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "9f6da994-bb6a-44e3-94fd-fc08d2f0060c",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003916,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.odin.models.relational.Column",
+          "com.infa.odin.models.file.flat.FlatField",
+          "com.infa.odin.models.relational.ViewColumn"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "(data element related to business terms which are critical data element) related to data quality rule occurrence with threshold result \"not acceptable\"",
+        "com.infa.application.dashboard.savedSearchId": "",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/9f6da994-bb6a-44e3-94fd-fc08d2f0060c",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2966554,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 1129
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "BarChart",
+        "core.externalId": "WIDGET-1129",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Asset Popularity by Stakeholder",
+        "core.modifiedOn": 1733917177224,
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "51ce9062-970d-4b27-8c66-c74ed8a330df",
+        "core.createdOn": 1733917177047,
+        "com.infa.application.dashboard.assetTypes": [
+          "*"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "all rated or commented within last 180 days",
+        "com.infa.application.dashboard.savedSearchId": "",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "com.infa.application.dashboard.groupBy": "core.stakeholderIdentity",
+        "__meta.namespace": null,
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/51ce9062-970d-4b27-8c66-c74ed8a330df",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2946231,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 52
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "BarChart",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-52",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Technical Assets Without Owner",
+        "core.modifiedOn": 1682940003864,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "c0827404-aa1e-420a-8507-1296b3775b21",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003864,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.odin.models.file.File",
+          "com.infa.odin.models.relational.Table",
+          "com.infa.odin.models.Databricks.NotebookDefinition",
+          "com.infa.odin.models.PowerBI.Cloud.Report",
+          "com.infa.odin.models.relational.Database",
+          "com.infa.odin.models.file.amazons3.Bucket"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "all without stakeholder",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/c0827404-aa1e-420a-8507-1296b3775b21",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2946247,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 50
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "BarChart",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-50",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Critical Assets without Stakeholders",
+        "core.description": "assets links to critical data eleement terms - they should have stakeholders",
+        "core.modifiedOn": 1682940003500,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "d0083c57-f6ac-4f59-a33b-de47582d8b55",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003500,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.ccgf.models.governance.RuleTemplate",
+          "com.infa.odin.models.PowerBI.Cloud.Field",
+          "com.infa.odin.models.relational.Table",
+          "com.infa.ccgf.models.governance.Process",
+          "com.infa.ccgf.models.governance.Metric",
+          "com.infa.ccgf.models.governance.SubDomain"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "(all related to business terms which are critical data element) not related to stakeholder",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/d0083c57-f6ac-4f59-a33b-de47582d8b55",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2946256,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 53
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "BarChart",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-53",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Business Assets Without Owner",
+        "core.modifiedOn": 1708541367709,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "f70ce463-30a7-4e7e-864c-8ccb21e9f79a",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003544,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.ccgf.models.governance.Policy",
+          "com.infa.ccgf.models.governance.Process",
+          "com.infa.ccgf.models.governance.DataSet",
+          "com.infa.ccgf.models.governance.BusinessTerm",
+          "com.infa.ccgf.models.governance.Metric",
+          "com.infa.ccgf.models.governance.RuleTemplate"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "business asset without stakeholder",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/f70ce463-30a7-4e7e-864c-8ccb21e9f79a",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2945665,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 49
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "GridView",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-49",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Systems Not updated the last 60 days",
+        "core.description": "List of systems not updated last 60 days. We should rerun the scan to ensure metadata in the catalog reflect system content",
+        "core.modifiedOn": 1682940003571,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.resourceType",
+          "core.stakeholderIdentity"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "544e8771-9e9a-4af3-94ec-b4f51042a933",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003571,
+        "com.infa.application.dashboard.assetTypes": [
+          "core.Resource"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "Catalog source not updated within last 60 days and not with resource type \"REFERENCE CATALOG SOURCE\"",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/544e8771-9e9a-4af3-94ec-b4f51042a933",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2945717,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 220
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "BarChart",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-220",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Low Quality Elements",
+        "core.modifiedOn": 1688106765685,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "4264d5c5-1a76-4772-92d8-c2d78769a946",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1688106765685,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.odin.models.relational.Column",
+          "com.infa.odin.models.relational.ViewColumn",
+          "com.infa.odin.models.file.flat.FlatField"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "data element related to data quality rule occurrence with threshold result \"not acceptable\"",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/4264d5c5-1a76-4772-92d8-c2d78769a946",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2945726,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 538
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "BarChart",
+        "core.externalId": "WIDGET-538",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Draft Items",
+        "core.description": "all objects with Lifecycle Draft",
+        "core.modifiedOn": 1708680011598,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "10f0e2cf-2b34-460d-9f89-375c73acf6a0",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1708680011598,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.ccgf.models.governance.Policy",
+          "com.infa.ccgf.models.governance.SubDomain",
+          "com.infa.ccgf.models.AIModel.AIModel",
+          "com.infa.ccgf.models.governance.Domain",
+          "com.infa.ccgf.models.governance.BusinessTerm"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "all with lifecycle Draft",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.namespace": null,
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/10f0e2cf-2b34-460d-9f89-375c73acf6a0",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2945769,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 46
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "PieChart",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-46",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Rated Assets Without Stakeholder",
+        "core.description": "Rated assets potentially important/critical assets and should have stakeholders",
+        "core.modifiedOn": 1692707562597,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "830f769a-561a-471f-a294-ed1410b5ae36",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003531,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.odin.models.relational.Table",
+          "com.infa.ccgf.models.governance.Domain",
+          "com.infa.ccgf.models.governance.Process",
+          "com.infa.odin.models.Tableau.Worksheet",
+          "com.infa.ccgf.models.governance.DataSet"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "all rated within last 90 days and not related to stakeholder",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/830f769a-561a-471f-a294-ed1410b5ae36",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2945836,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 43
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "PieChart",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-43",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "New Technical Assets Added the Last 90 Days",
+        "core.modifiedOn": 1682940003649,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "22f86e19-a804-4dba-9248-ab43dfed029e",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003649,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.odin.models.file.hierarchical.HierarchicalField",
+          "com.infa.odin.models.file.flat.FlatField",
+          "com.infa.odin.models.file.File",
+          "com.infa.odin.models.relational.Column",
+          "com.infa.odin.models.PowerBI.Cloud.Report",
+          "com.infa.odin.models.relational.Table",
+          "core.Resource",
+          "com.infa.ccgf.models.governance.RuleTemplate"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "all Created On within last 90 days",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/22f86e19-a804-4dba-9248-ab43dfed029e",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2945853,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 48
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "GridView",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-48",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Technical Datasets Not Certified",
+        "core.modifiedOn": 1682940003471,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "4f6712d3-02ea-4f62-9c8d-202c13bfaa12",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003471,
+        "com.infa.application.dashboard.assetTypes": [
+          "core.DataSet",
+          "com.infa.odin.models.AzureDataFactory.Dataset",
+          "com.infa.odin.models.PowerBI.Cloud.Dataset",
+          "com.infa.odin.models.relational.Table",
+          "com.infa.odin.models.file.File"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "technical datasets which are not certified",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/4f6712d3-02ea-4f62-9c8d-202c13bfaa12",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2946081,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 41
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "PieChart",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-41",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Technical Assets changed the last 60 days",
+        "core.description": "Technical Assets changed the last 60 days",
+        "core.modifiedOn": 1725386558013,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "92944814-d0e7-471d-a859-9a79352a1195",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003558,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.odin.models.Tableau.Worksheet",
+          "com.infa.odin.models.Tableau.Dashboard",
+          "com.infa.odin.models.Tableau.Workbook",
+          "com.infa.odin.models.relational.Schema",
+          "com.infa.odin.models.relational.View",
+          "core.Resource",
+          "core.DataSet",
+          "com.infa.odin.models.relational.ViewColumn"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 10,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "all assets updated within last 60 day",
+        "com.infa.application.dashboard.savedSearchId": "",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/92944814-d0e7-471d-a859-9a79352a1195",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2946144,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 44
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "PieChart",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-44",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Items Rated the Last 3 Months",
+        "core.modifiedOn": 1682940003684,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "11085c34-3aa8-4e92-8666-c18e2e42b4b3",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003684,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.ccgf.models.governance.BusinessTerm",
+          "core.Resource",
+          "com.infa.ccgf.models.governance.DataSet",
+          "com.infa.odin.models.application.saps4hana.SapTable",
+          "com.infa.odin.models.application.saps4hana.SapView"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "all rated within last 90 days",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/11085c34-3aa8-4e92-8666-c18e2e42b4b3",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2946145,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 47
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.ClaireActivityWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.ClaireActivityWidget"
+        ],
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-47",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "CLAIRE Curation Suggestions",
+        "core.description": "AI/ML Based curation suggestions",
+        "core.modifiedOn": 1688116844098,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "0cbc3741-4a21-410a-8df2-840be4a60958",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003787,
+        "__meta.restrictedAttributes": [],
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.assetLifecycle": "Published",
+        "com.infa.application.dashboard.recommendationTypes": [
+          "CLASSIFICATION",
+          "GLOSSARY_TERM_ASSOCIATION",
+          "GENERATED_CLASSIFICATION"
+        ],
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "ClaireActivityWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/0cbc3741-4a21-410a-8df2-840be4a60958",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2946184,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 615
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "GridView",
+        "core.externalId": "WIDGET-615",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "business assets created within last 30 days",
+        "core.modifiedOn": 1715273835996,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description",
+          "core.stakeholderIdentity",
+          "core.createdBy",
+          "core.createdOn",
+          "core.modifiedBy",
+          "core.modifiedOn"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "1f693f5a-c0b7-47d0-a235-d86404f5a61e",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1715273817787,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.ccgf.models.governance.RuleInstance",
+          "com.infa.ccgf.models.governance.DataElement",
+          "com.infa.ccgf.models.governance.System",
+          "com.infa.ccgf.models.governance.Project",
+          "com.infa.ccgf.models.governance.BusinessTerm"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "business assets created within last 30 days",
+        "com.infa.application.dashboard.savedSearchId": "",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.namespace": null,
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/1f693f5a-c0b7-47d0-a235-d86404f5a61e",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2946191,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 340
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.TicketsWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.TicketsWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "GridView",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-340",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "All Glossary tickets",
+        "com.infa.application.dashboard.ticketStakeholderType": "Creator",
+        "core.modifiedOn": 1692632080707,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "com.infa.ccgf.models.issueManagement.issueTitle",
+          "com.infa.ccgf.models.issueManagement.issueStatus",
+          "com.infa.ccgf.models.issueManagement.assetName"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.timePeriod": 31536000000,
+        "core.identity": "87714cff-041b-4049-ba79-54bb2a6a628e",
+        "core.inheritedGroups": [],
+        "com.infa.application.dashboard.ticketStatus": [
+          "Open",
+          "In Progress"
+        ],
+        "core.createdOn": 1692631385585,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.ccgf.models.governance.BusinessTerm"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "*",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "TicketsWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://61594833-ea54-497b-8798-53006f5069f8/87714cff-041b-4049-ba79-54bb2a6a628e",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://61594833-ea54-497b-8798-53006f5069f8",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    }
+  ],
+  "relationships": [
+    {
+      "seqNo": 1963778,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925141,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 8,
+        "core.targetIdentity": "11085c34-3aa8-4e92-8666-c18e2e42b4b3",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003514
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963779,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.referenceOrigins": [],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925176,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 13,
+        "core.targetIdentity": "10f0e2cf-2b34-460d-9f89-375c73acf6a0",
+        "__meta.namespace": null,
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1708680011619
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963780,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925137,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 5,
+        "core.targetIdentity": "544e8771-9e9a-4af3-94ec-b4f51042a933",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003623
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963781,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925150,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 10,
+        "core.targetIdentity": "92944814-d0e7-471d-a859-9a79352a1195",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003727
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963782,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925145,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 11,
+        "core.targetIdentity": "4264d5c5-1a76-4772-92d8-c2d78769a946",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1688106765699
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963783,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925154,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 3,
+        "core.targetIdentity": "0cbc3741-4a21-410a-8df2-840be4a60958",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003485
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963784,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925132,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 0,
+        "core.targetIdentity": "f70ce463-30a7-4e7e-864c-8ccb21e9f79a",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003825
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963785,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925181,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 9,
+        "core.targetIdentity": "22f86e19-a804-4dba-9248-ab43dfed029e",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003600
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963786,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925128,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 7,
+        "core.targetIdentity": "830f769a-561a-471f-a294-ed1410b5ae36",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003803
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963787,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925158,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 2,
+        "core.targetIdentity": "15a26564-c548-442c-acde-ac1de5e29b2a",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003766
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963788,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925163,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 1,
+        "core.targetIdentity": "c0827404-aa1e-420a-8507-1296b3775b21",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003664
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963789,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925167,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 12,
+        "core.targetIdentity": "87714cff-041b-4049-ba79-54bb2a6a628e",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1692631385626
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963790,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925172,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 6,
+        "core.targetIdentity": "4f6712d3-02ea-4f62-9c8d-202c13bfaa12",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003895
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963791,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925119,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 4,
+        "core.targetIdentity": "9f6da994-bb6a-44e3-94fd-fc08d2f0060c",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003709
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 1963792,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1711742925123,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 14,
+        "core.targetIdentity": "d0083c57-f6ac-4f59-a33b-de47582d8b55",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003745
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 2966555,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.referenceOrigins": [],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1733917177083,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 16,
+        "core.targetIdentity": "51ce9062-970d-4b27-8c66-c74ed8a330df",
+        "__meta.namespace": null,
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1733917177083
+      },
+      "score": 19.383366
+    },
+    {
+      "seqNo": 2112894,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.referenceOrigins": [],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "61594833-ea54-497b-8798-53006f5069f8",
+        "core.modifiedOn": 1715273817746,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 15,
+        "core.targetIdentity": "1f693f5a-c0b7-47d0-a235-d86404f5a61e",
+        "__meta.namespace": null,
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1715273817746
+      },
+      "score": 19.383366
+    }
+  ]
+}

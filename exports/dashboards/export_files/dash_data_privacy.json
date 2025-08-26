@@ -1,0 +1,1215 @@
+{
+  "dashboard": {
+    "seqNo": 2945858,
+    "primaryTerm": 1,
+    "sourceAsMap": {
+      "__meta.core.externalId": {
+        "prefix": "DASH",
+        "counter": 7
+      },
+      "core.inheritedStakeholders": [],
+      "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+      "core.classType": "com.infa.application.dashboard.Dashboard",
+      "core.stakeholders": [
+        {
+          "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+          "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+          "core.stakeholderRelationshipType": "core.IClassOwner",
+          "core.stakeholderType": "USER"
+        }
+      ],
+      "core.origin": "CDGC",
+      "type": [
+        "core.IClass",
+        "com.infa.application.dashboard.Dashboard"
+      ],
+      "core.mergedObjects": [],
+      "core.externalId": "DASH-7",
+      "core.stakeholderRoleIdentities": [
+        "Stakeholder_Role_Dashboard_Owner"
+      ],
+      "core.name": "Data Privacy",
+      "core.description": "Widgets to get insight on sensitive data assets",
+      "core.modifiedOn": 1682940003654,
+      "core.assignedGroups": [],
+      "core.assignedStakeholders": [
+        {
+          "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+          "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+          "core.stakeholderRelationshipType": "core.IClassOwner",
+          "core.stakeholderType": "USER"
+        }
+      ],
+      "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+      "core.identity": "b779e570-9827-42ff-b7b8-f7379ba82a40",
+      "core.inheritedGroups": [],
+      "core.createdOn": 1682940003654,
+      "__meta.restrictedAttributes": [],
+      "core.supplement.certified": [
+        false
+      ],
+      "core.inheritedStakeholderAttributes": [],
+      "core.assetLifecycle": "Published",
+      "core.stakeholderIdentity": [
+        "4WVZa0s5Ogliu1HuTVb4Kp"
+      ],
+      "core.groups": [],
+      "__meta.unqualifiedTypeName": "Dashboard",
+      "core.producer": "CDGC",
+      "core.assignedStakeholderAttributes": [
+        "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+        "USER#role:Stakeholder_Role_Dashboard_Owner",
+        "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+        "USER:4WVZa0s5Ogliu1HuTVb4Kp"
+      ],
+      "core.location": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40",
+      "elementType": "OBJECT",
+      "__meta.parentLocation": "",
+      "core.stakeholderRelationshipTypes": [
+        "core.IClassOwner"
+      ],
+      "core.stakeholderAttributes": [
+        "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+        "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+        "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+        "USER#role:Stakeholder_Role_Dashboard_Owner"
+      ]
+    },
+    "score": 13.4907255
+  },
+  "widgets": [
+    {
+      "seqNo": 2946264,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 37
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "PieChart",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-37",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Business Datasets with PII",
+        "core.modifiedOn": 1685454912367,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "d0d73ca5-af9c-4462-84f9-a91cd3025958",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003386,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.ccgf.models.governance.DataSet"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "dataset related to policy '*PII*'",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40/d0d73ca5-af9c-4462-84f9-a91cd3025958",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2945636,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 627
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "GridView",
+        "core.externalId": "WIDGET-627",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Data Inventory",
+        "core.modifiedOn": 1717538503843,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "390557fe-688b-45b8-8f5f-76c67444ac23",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1717538383626,
+        "com.infa.application.dashboard.assetTypes": [
+          "core.Resource"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "*",
+        "com.infa.application.dashboard.savedSearchId": "",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.namespace": null,
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40/390557fe-688b-45b8-8f5f-76c67444ac23",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2945938,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 33
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "GridView",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-33",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Business Processes Using Personal Data",
+        "core.modifiedOn": 1682940003415,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "649d58c2-ca45-4ffa-86e0-a5007d9c11c0",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003415,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.ccgf.models.governance.Process"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "process related to policy 'Privacy of Personal Data Policy'",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40/649d58c2-ca45-4ffa-86e0-a5007d9c11c0",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2945966,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 34
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "BarChart",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-34",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "PII Data Elements",
+        "core.modifiedOn": 1732291155110,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "e42af50d-1a81-4b38-9508-29f0bc4024a6",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003590,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.odin.models.relational.Column",
+          "com.infa.odin.models.file.flat.FlatField",
+          "com.infa.odin.models.relational.ViewColumn",
+          "com.infa.odin.models.file.hierarchical.HierarchicalField",
+          "core.DataElement",
+          "com.infa.odin.models.PowerBI.Cloud.Field"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "data elements related to business terms related to policies *pii*",
+        "com.infa.application.dashboard.savedSearchId": "",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40/e42af50d-1a81-4b38-9508-29f0bc4024a6",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2945972,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 39
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "GridView",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-39",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "PII Business Terms",
+        "core.description": "business term related to PII policies",
+        "core.modifiedOn": 1729191397037,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "db841c1e-5b13-4620-9b5c-dd99c828affa",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003401,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.ccgf.models.governance.BusinessTerm",
+          "com.infa.ccgf.models.governance.Domain",
+          "com.infa.ccgf.models.governance.SubDomain"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "business terms related to policy 'Personally Identifiable Information*'",
+        "com.infa.application.dashboard.savedSearchId": "",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40/db841c1e-5b13-4620-9b5c-dd99c828affa",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2945995,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 36
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "GridView",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-36",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Views Containing Personal Information",
+        "core.description": "identify all tables containing Personal Information such as email, first name, last name, ....",
+        "core.modifiedOn": 1682940003373,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.resourceType",
+          "core.resourceName"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "da96be05-ab35-417c-8775-52cac3d265fc",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003373,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.odin.models.relational.View"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "views related  to View Column related to business terms related to policy 'Personally Identifiable Information*'",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40/da96be05-ab35-417c-8775-52cac3d265fc",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2946058,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 40
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.NoticeBoardWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.NoticeBoardWidget"
+        ],
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-40",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Data Privacy Quick Links",
+        "core.modifiedOn": 1682940003528,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "8cb9e0e2-3a50-44c1-9b78-e15664b17d02",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003528,
+        "__meta.restrictedAttributes": [],
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "com.infa.application.dashboard.noticeBoardContent": "<ul><li><a rel=\"noopener noreferrer\" href=\"https://cdgc.dm-us.informaticacloud.com/asset/dc274942-9c46-4318-b24c-397ccde09360\" target=\"_blank\">360 View Of ALL PII Data</a></li><li><a rel=\"noopener noreferrer\" href=\"https://cdgc.dm-us.informaticacloud.com/asset/9cb6ae2e-f478-42bc-8ef5-0796dae7fa1e\" target=\"_blank\">Snowflake PII Data</a> - mask sensitive data in Snowflake when not authorized</li><li><a rel=\"noopener noreferrer\" href=\"https://cdgc.dm-us.informaticacloud.com/asset/b8922956-d306-4aca-b726-378cbf0f1730\" target=\"_blank\">Email 360 view </a></li><li><a rel=\"noopener noreferrer\" href=\"https://cdgc.dm-us.informaticacloud.com/asset/a5fdb66b-d55a-4e71-82fe-1c889843b081\" target=\"_blank\">PII Policy Definition &amp; usage</a></li></ul><p><br></p><p><img alt=\"Data Security vs. Data Privacy—What's the Difference? | Informatica\" src=\"data:image/jpeg;base64,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\"></p><p> </p><p> </p>",
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "NoticeBoardWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40/8cb9e0e2-3a50-44c1-9b78-e15664b17d02",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2946072,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 38
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "GridView",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-38",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "Systems/Apps Containing PII",
+        "core.modifiedOn": 1682940003429,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.description"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "b36824c5-1b39-41f4-b614-396a09c9accf",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003429,
+        "com.infa.application.dashboard.assetTypes": [
+          "core.Resource"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "catalog sources containing data elements related to business terms related to policies *pii*",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40/b36824c5-1b39-41f4-b614-396a09c9accf",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 2946114,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 1121
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "Counts",
+        "core.externalId": "WIDGET-1121",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "PII Assets to Protect in DataBricks",
+        "core.description": "contains all assets to tag in snownflake as sensitive asset",
+        "core.modifiedOn": 1733164617174,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.businessName",
+          "core.profiled",
+          "core.inferredBusinessName"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "b0228631-bdf4-4629-8cb3-b27e5155e754",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1733164617174,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.odin.models.relational.Column",
+          "com.infa.odin.models.relational.ViewColumn"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "data elements with resource type '*brick*' and related to business terms related to policies *pii*",
+        "com.infa.application.dashboard.savedSearchId": "",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "com.infa.application.dashboard.groupBy": "core.profiled",
+        "core.groups": [],
+        "__meta.namespace": null,
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40/b0228631-bdf4-4629-8cb3-b27e5155e754",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    },
+    {
+      "seqNo": 3764053,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "__meta.core.externalId": {
+          "prefix": "WIDGET",
+          "counter": 35
+        },
+        "core.inheritedStakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.classType": "com.infa.application.dashboard.SearchWidget",
+        "core.stakeholders": [
+          {
+            "core.stakeholderId": "4WVZa0s5Ogliu1HuTVb4Kp",
+            "core.stakeholderRoleIdentity": "Stakeholder_Role_Dashboard_Owner",
+            "core.stakeholderRelationshipType": "core.IClassOwner",
+            "core.stakeholderType": "USER"
+          }
+        ],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.BaseWidget",
+          "core.IClass",
+          "com.infa.application.dashboard.SearchWidget"
+        ],
+        "com.infa.application.dashboard.visualizationType": "GridView",
+        "core.mergedObjects": [],
+        "core.externalId": "WIDGET-35",
+        "core.stakeholderRoleIdentities": [
+          "Stakeholder_Role_Dashboard_Owner"
+        ],
+        "core.name": "PII Assets To Protect In Snowflake",
+        "core.description": "contains all assets to tag in snownflake as sensitive asset",
+        "core.modifiedOn": 1748435836890,
+        "core.assignedGroups": [],
+        "core.assignedStakeholders": [],
+        "com.infa.application.dashboard.gridColumns": [
+          "core.name",
+          "core.businessName",
+          "core.profiled",
+          "core.inferredBusinessName",
+          "core.generatedClassification"
+        ],
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.identity": "346b91b5-9830-429b-8785-126a9502669e",
+        "core.inheritedGroups": [],
+        "core.createdOn": 1682940003542,
+        "com.infa.application.dashboard.assetTypes": [
+          "com.infa.odin.models.relational.Column",
+          "com.infa.odin.models.relational.ViewColumn"
+        ],
+        "__meta.restrictedAttributes": [],
+        "com.infa.application.dashboard.rowCount": 25,
+        "core.supplement.certified": [
+          false
+        ],
+        "core.inheritedStakeholderAttributes": [
+          "USER#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner"
+        ],
+        "com.infa.application.dashboard.searchQuery": "data elements with resource type 'Snowflake' and related to business terms related to policies *pii*",
+        "com.infa.application.dashboard.savedSearchId": "",
+        "core.assetLifecycle": "Published",
+        "core.stakeholderIdentity": [
+          "4WVZa0s5Ogliu1HuTVb4Kp"
+        ],
+        "com.infa.application.dashboard.groupBy": "core.profiled",
+        "core.groups": [],
+        "__meta.unqualifiedTypeName": "SearchWidget",
+        "core.producer": "CDGC",
+        "core.assignedStakeholderAttributes": [],
+        "core.location": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40/346b91b5-9830-429b-8785-126a9502669e",
+        "elementType": "OBJECT",
+        "__meta.parentLocation": "CDGC://b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.stakeholderRelationshipTypes": [
+          "core.IClassOwner"
+        ],
+        "core.stakeholderAttributes": [
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#role:Stakeholder_Role_Dashboard_Owner",
+          "USER:4WVZa0s5Ogliu1HuTVb4Kp#relation:core.IClassOwner",
+          "USER#role:Stakeholder_Role_Dashboard_Owner"
+        ]
+      },
+      "score": 4
+    }
+  ],
+  "relationships": [
+    {
+      "seqNo": 2911174,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.referenceOrigins": [],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.modifiedOn": 1733164800307,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 3,
+        "core.targetIdentity": "b0228631-bdf4-4629-8cb3-b27e5155e754",
+        "__meta.namespace": null,
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1733164617190
+      },
+      "score": 19.892998
+    },
+    {
+      "seqNo": 2911176,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.modifiedOn": 1733164800312,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 9,
+        "core.targetIdentity": "346b91b5-9830-429b-8785-126a9502669e",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003556
+      },
+      "score": 19.892998
+    },
+    {
+      "seqNo": 2911177,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.modifiedOn": 1733164800301,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 0,
+        "core.targetIdentity": "8cb9e0e2-3a50-44c1-9b78-e15664b17d02",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003514
+      },
+      "score": 19.892998
+    },
+    {
+      "seqNo": 2911178,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.referenceOrigins": [],
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.modifiedOn": 1733164800285,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 8,
+        "core.targetIdentity": "390557fe-688b-45b8-8f5f-76c67444ac23",
+        "__meta.namespace": null,
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1717538383648
+      },
+      "score": 19.892998
+    },
+    {
+      "seqNo": 2911179,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.modifiedOn": 1733164800296,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 6,
+        "core.targetIdentity": "e42af50d-1a81-4b38-9508-29f0bc4024a6",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003463
+      },
+      "score": 19.892998
+    },
+    {
+      "seqNo": 2911180,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.modifiedOn": 1733164800280,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 7,
+        "core.targetIdentity": "649d58c2-ca45-4ffa-86e0-a5007d9c11c0",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003479
+      },
+      "score": 19.892998
+    },
+    {
+      "seqNo": 2911181,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.modifiedOn": 1733164800290,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 1,
+        "core.targetIdentity": "db841c1e-5b13-4620-9b5c-dd99c828affa",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003628
+      },
+      "score": 19.892998
+    },
+    {
+      "seqNo": 2911182,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.modifiedOn": 1733164800264,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 2,
+        "core.targetIdentity": "b36824c5-1b39-41f4-b614-396a09c9accf",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003604
+      },
+      "score": 19.892998
+    },
+    {
+      "seqNo": 2911183,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.modifiedOn": 1733164800269,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 5,
+        "core.targetIdentity": "da96be05-ab35-417c-8775-52cac3d265fc",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003496
+      },
+      "score": 19.892998
+    },
+    {
+      "seqNo": 2911184,
+      "primaryTerm": 1,
+      "sourceAsMap": {
+        "core.targetOrigin": "CDGC",
+        "core.modifiedBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "core.origin": "CDGC",
+        "type": [
+          "com.infa.application.dashboard.DashboardToWidget"
+        ],
+        "core.sourceIdentity": "b779e570-9827-42ff-b7b8-f7379ba82a40",
+        "core.modifiedOn": 1733164800275,
+        "core.sourceOrigin": "CDGC",
+        "core.createdBy": "4WVZa0s5Ogliu1HuTVb4Kp",
+        "com.infa.application.dashboard.order": 4,
+        "core.targetIdentity": "d0d73ca5-af9c-4462-84f9-a91cd3025958",
+        "core.associationKind": "core.ParentChild",
+        "core.producer": "CDGC",
+        "elementType": "RELATIONSHIP",
+        "core.createdOn": 1682940003574
+      },
+      "score": 19.892998
+    }
+  ]
+}
