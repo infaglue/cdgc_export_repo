@@ -1,5 +1,12 @@
-{
-  "name": "Data Quality & Governance Dashboard",
-  "shortname": "dash_data_quality_gov",
-  "description": "A sample Data Quality and Governance Dashboard"
-}
+[
+  {
+    "name": "Data Quality & Governance Dashboard",
+    "shortname": "dash_data_quality_gov",
+    "description": "A sample Data Quality and Governance Dashboard"
+  },
+  {
+    "name": "Another Dashboard",
+    "shortname": "dash_other",
+    "description": "Another example"
+  }
+]
